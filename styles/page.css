@@ -5,7 +5,7 @@
 
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 
@@ -101,4 +101,53 @@ header nav li{
 {
     max-width: 560px;
     height: 620px;
+}
+/* about section */
+.about-sec
+{
+        display: flex;
+   
+
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color:#FFF8F3;
+
+    margin: 200px 280px;
+    padding: 100px 0;
+   
+   
+
+}
+.about-sec-info
+{
+    background-color: white;
+    width: 580px;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+     border: 1px solid black;
+     padding: 0 20px;
+
+}
+
+.info-para
+{
+    font-size: x-small;
+    color: gray;
+    
+}
+.total-about-info
+{
+    display: flex;
+    gap: 15px;
+}
+.about-info
+{
+    justify-items: center;
+    align-items:center ;
+}
+.about-email
+{
+    font-weight: bold;
 }

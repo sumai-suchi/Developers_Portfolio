@@ -39,9 +39,9 @@ header nav li{
 .btn {
     width: 120px;
     height: 40px;
-    background-color: orange;
+    background-color: rgb(255, 60, 0);
     color: white;
-    outline: orange;
+    outline: rgb(255, 60, 0);
     border: none;
 }
 .btn-1
@@ -49,9 +49,9 @@ header nav li{
   
      width: 120px;
     height: 40px;
-    background-color: orange;
+    background-color: rgb(255, 60, 0);
     color: white;
-    outline: orange;
+    outline: rgb(255, 60, 0);
     border: none;
     border-radius: 2px;
 }
@@ -113,7 +113,7 @@ header nav li{
     align-items: center;
     background-color:#FFF8F3;
 
-    margin: 200px 280px;
+    margin: 100px 280px;
     padding: 100px 0;
    
    
@@ -160,7 +160,7 @@ header nav li{
     align-items: center;
     width: 750px;
     height: 80px;
-    margin: 220px auto;
+    margin: 100px auto;
 
 }
 .info-do
@@ -181,4 +181,27 @@ header nav li{
   height: 310px;
   background-color: white;
  box-shadow: 0px 0px 8px rgba(191, 187, 187, 0.3);
+}
+/* summary sec */
+.color-gray
+{
+    color: gray;
+    font-weight:500;
+    font-size: small;
+}
+.color-p-gray
+{
+    color: gray;
+    
+    font-size: smaller; 
+}
+.summary-sec
+{
+ display: flex;
+ margin: 50px 300px;
+ gap: 50px;
+}
+.btn-div
+{
+   margin: 20px 600px;
 }

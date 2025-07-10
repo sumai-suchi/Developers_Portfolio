@@ -205,3 +205,40 @@ header nav li{
 {
    margin: 20px 600px;
 }
+/* Footer */
+footer
+{
+    background-color: #FFF8F3;
+    height:600px;
+}
+.footer-container
+{
+    display: flex;
+
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 100px 0;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    gap:15px;
+  
+}
+.form input
+{
+  width: 250px;
+  height: 35px;
+  padding-left: 2px;
+}
+.form textarea
+{
+    height:100px;
+     padding-left: 2px;
+}
+.footer-first-div
+{
+    width: 400px;
+}
